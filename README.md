@@ -14,15 +14,21 @@
 - **学习管家**：每日/每周计划、专注计时、模考预测、学习报告。
 - **本地自包含**：所有参考数据随 `seed-data.js` 打包，离线 / GitHub Pages / 本地双击均可完整运行；答题、错题、收藏、笔记存于本机浏览器（localStorage），与云端互不冲突。
 
+## 🌐 在线使用（推荐）
+
+本应用已启用 GitHub Pages，直接访问即可刷题（无需下载、无需登录）：
+
+**https://xixipppp.github.io/study-planning-console/**
+
+> 代码仓库：https://github.com/xixipppp/study-planning-console
+
 ## 🚀 使用方法
 
-### 方式一：直接打开
-把 `index.html` 和 `seed-data.js` 放在同一目录，双击 `index.html` 即可（建议用 Chrome / Edge）。
+### 方式一：GitHub Pages 在线打开（推荐）
+直接访问上面的链接即可。仓库已开启 Pages（`main` 分支、`/` 根目录），打开就是一个完整可用的刷题应用；所有题库与参考数据都内置在 `seed-data.js` 中，即使断网也能正常刷。
 
-### 方式二：部署 GitHub Pages（免费公网可访问）
-1. 将此仓库克隆或下载到本地。
-2. 在仓库 **Settings → Pages** 选择 `main` 分支、`/ (root)` 目录，保存。
-3. 等待一两分钟，访问 `https://<你的用户名>.github.io/<仓库名>/` 即可刷题。
+### 方式二：本地下载后打开（完全离线）
+把本仓库克隆或下载到本地，确保 `index.html` 与 `seed-data.js` 在同一目录，双击 `index.html` 即可（建议 Chrome / Edge）。
 
 ### 方式三：用 WorkBuddy 云端空间运行（数据可回流）
 在 WorkBuddy 云端打开 `index.html`，进入「我的 → 数据管理 → 导出种子数据」，即可把云端题库导出为 `seed-data.js` 覆盖本地版本，获得你自己的完整题库。
